@@ -1,6 +1,6 @@
 # Factorio. The impact of city blocks on UPS.
 
-# Содержание
+# Table of contents
 1. [Why can a city block be bad for UPS?](#1-why-can-a-city-block-be-bad-for-ups)
 2. [Optimization of city blocks.](#2-optimization-of-city-blocks)
     1. [And who is guilty?](#21-and-who-is-guilty)
