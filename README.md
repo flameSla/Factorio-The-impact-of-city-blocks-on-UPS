@@ -1,4 +1,4 @@
-# Factorio-The-impact-of-city-blocks-on-UPS
+# Factorio. The impact of city blocks on UPS.
 
 ## 1. Why can a city block be bad for UPS?
 
