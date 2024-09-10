@@ -1,5 +1,18 @@
 # Factorio. The impact of city blocks on UPS.
 
+# Содержание
+1. [Why can a city block be bad for UPS?](#1-why-can-a-city-block-be-bad-for-ups)
+2. [Optimization of city blocks.](#2-optimization-of-city-blocks)
+    1. [And who is guilty?](#21-and-who-is-guilty)
+    2. [Use beacons !!!](#22-use-beacons)
+    3. [Class Units.](#23-class-units)
+    4. [Nuclear power plants.](#24-nuclear-power-plants)
+    5. [Optimize the loading of ore into trains.](#25-optimize-the-loading-of-ore-into-trains)
+    6. [Class Inserter](#26-class-inserter)
+    7. [Electric network](#27-electric-network)
+    8.  [Bots](#28-bots)
+3. [Life without city blocks.](#3-life-without-city-blocks)
+
 ## 1. Why can a city block be bad for UPS?
 
 Take a close look at the drawing. The drawing shows a comparison of a typical city block with an optimized build.
@@ -39,27 +52,27 @@ Remember and better write down the values:
 * Trains
 * Electric network
 
-### 2.1. Use beacons !!!
+### 2.2. Use beacons !!!
 
 Use B8 or B12. B4 is bad for UPS.
 
-### 2.2. Class Units.
+### 2.3. Class Units.
 
 Disable the enemies. Or do not allow pollution to spread to the nests.
 
-### 2.3. Nuclear power plants.
+### 2.4. Nuclear power plants.
 
 **cost = Class Boiler + Class Reactor + Heat manager + Class Generator**
 
 If the value is high, remove nuclear power plants and use solar panels.
 
-### 2.4. Optimize the loading of ore into trains.
+### 2.5. Optimize the loading of ore into trains.
 
 Comparing different methods: [(link)](https://github.com/flameSla/Factorio-Loading-ore-into-the-train)
 
 **Do not use bots to load ore!**
 
-### 2.5. Class Inserter
+### 2.6. Class Inserter
 
 Use only stack inserters!
 
@@ -67,7 +80,7 @@ Remove the buffer chests, the wagon is also a buffer chest. (This is controversi
 
 For melting furnaces, use a clock ( great guide [(link)](https://www.reddit.com/r/technicalfactorio/comments/ju2ngg/inserter_clocking_tutorial/) )
 
-### 2.6. Electric network
+### 2.7. Electric network
 
 The electric network is very insidious. In addition to the electrical network, it includes a Fluid manager. This is due to the peculiarities of multithreading. In statistics, Fluid manager is always 0, but this is not the case. 
 
@@ -75,7 +88,7 @@ How to find out the value of Fluid manager: [(link)](https://www.reddit.com/r/te
 
 If you have a mod with a lot of liquid, you may need to optimize the number of pipes.
 
-### 2.7. Bots
+### 2.8. Bots
 
 Builds on bots are very difficult to optimize.
 
