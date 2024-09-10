@@ -4,7 +4,7 @@
 1. [Why can a city block be bad for UPS?](#1-why-can-a-city-block-be-bad-for-ups)
 2. [Optimization of city blocks.](#2-optimization-of-city-blocks)
     1. [And who is guilty?](#21-and-who-is-guilty)
-    2. [Use beacons !!!](#22-use-beacons)
+    2. [Use beacons !!!](#22-use-beacons-)
     3. [Class Units.](#23-class-units)
     4. [Nuclear power plants.](#24-nuclear-power-plants)
     5. [Optimize the loading of ore into trains.](#25-optimize-the-loading-of-ore-into-trains)
