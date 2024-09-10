@@ -34,6 +34,7 @@ Remember and better write down the values:
 * Class Inserter
 * Class Reactor
 * Class Boiler
+* Class Generator
 * Heat manager
 * Trains
 * Electric network
@@ -48,7 +49,7 @@ Disable the enemies. Or do not allow pollution to spread to the nests.
 
 ### 2.3. Nuclear power plants.
 
-**cost = Class Boiler + Class Reactor + Heat manager**
+**cost = Class Boiler + Class Reactor + Heat manager + Class Generator**
 
 If the value is high, remove nuclear power plants and use solar panels.
 
